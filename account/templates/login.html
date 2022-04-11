@@ -1,0 +1,19 @@
+{% extends "parent.html" %}
+
+{%block content%}
+<div class="login-form">
+  <form action="{% url 'login' %}" method="POST">
+    {% csrf_token %}
+    <h1>Login</h1>
+    <div class="content">
+      <div class="input-field">
+        {{form.as_p}}
+      </div>
+    </div>
+    <div class="action">
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</div>
+{%endblock%}
+ 
