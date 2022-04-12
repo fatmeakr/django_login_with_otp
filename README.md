@@ -2,7 +2,6 @@
 
 * linux based os
 * python >= 3.7 and pip
-* postgres database
 
 # HOW TO RUN
 * clone project and cd to project directory
